@@ -1,0 +1,42 @@
+# ---- Python virtual environments ----
+venv/
+venv311/
+.venv/
+env/
+
+# ---- Python cache / build files ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ---- Model weights (Ultralytics downloads yolov8n.pt automatically on first run) ----
+*.pt
+*.pth
+*.onnx
+
+# ---- Video footage (too large for GitHub, 100 MB file limit) ----
+# Ignore all videos everywhere...
+*.mp4
+*.avi
+*.mov
+*.mkv
+# ...except the short demo clip in /demo
+!demo/
+!demo/*.mp4
+
+# ---- Generated output ----
+outputs/
+plate_captures/
+runs/
+
+# ---- Local copies saved by the Claude desktop app ----
+Claude outputs/
+
+# ---- Editor / OS files ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

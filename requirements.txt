@@ -1,0 +1,8 @@
+# Tested with Python 3.11 on Windows
+opencv-python==4.13.0.92
+numpy==2.4.4
+ultralytics==8.4.90
+pytesseract==0.3.13
+# PyTorch is installed automatically by ultralytics (CPU build).
+# For NVIDIA GPU acceleration, install the CUDA build first, e.g.:
+#   pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu124
